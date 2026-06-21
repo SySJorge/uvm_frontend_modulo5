@@ -1,0 +1,135 @@
+$primary: #0f766e;
+$secondary: #0ea5e9;
+$background: #f0fdfa;
+$text: #1f2937;
+$card: #ffffff;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: $background;
+    color: $text;
+}
+
+.dashboard {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: $card;
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+
+    img {
+        width: 72px;
+        height: 72px;
+    }
+
+    h1 {
+        margin: 0;
+        color: $primary;
+    }
+
+    p {
+        margin: 6px 0 0;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.card {
+    background: $card;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+
+    h3 {
+        margin-top: 0;
+        color: $primary;
+    }
+
+    .number {
+        font-size: 32px;
+        font-weight: bold;
+        color: $secondary;
+    }
+}
+
+.chart-card {
+    margin-top: 24px;
+    background: $card;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.table-card {
+    margin-top: 24px;
+    background: $card;
+    padding: 24px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+        border-bottom: 1px solid #e5e7eb;
+        padding: 12px;
+        text-align: left;
+    }
+
+    th {
+        color: $primary;
+    }
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: #ccfbf1;
+    color: #115e59;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 24px;
+    color: #64748b;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

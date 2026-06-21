@@ -1,0 +1,31 @@
+{
+  "name": "actividad4",
+  "version": "1.0.0",
+  "description": "Actividad 4 con Webpack, SASS, activos, datos y Service Worker",
+  "main": "index.js",
+  "scripts": {
+  "build": "webpack --config webpack.config.js",
+  "start": "webpack serve --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Jorge Flores",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.6.7",
+    "json5-loader": "^4.0.1",
+    "sass": "^1.101.0",
+    "sass-loader": "^17.0.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3",
+    "webpack-dev-server": "^5.2.5",
+    "workbox-webpack-plugin": "^7.4.1",
+    "yaml-loader": "^0.9.0"
+  }
+}

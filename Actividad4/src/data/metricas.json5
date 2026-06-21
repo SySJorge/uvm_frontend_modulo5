@@ -1,0 +1,7 @@
+{
+  // Métricas generales del dashboard
+  totalServicios: 5,
+  serviciosActivos: 4,
+  serviciosMonitoreo: 1,
+  disponibilidad: "98%",
+}

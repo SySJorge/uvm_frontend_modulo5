@@ -1,0 +1,6 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#0f766e"></rect>
+  <circle cx="60" cy="42" r="18" fill="#ffffff"></circle>
+  <path d="M30 92c6-20 20-30 30-30s24 10 30 30" fill="#ffffff"></path>
+  <text x="60" y="112" font-size="14" text-anchor="middle" fill="#ffffff" font-family="Arial">SYS</text>
+</svg>
