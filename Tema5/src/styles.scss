@@ -1,0 +1,38 @@
+$primary-color: #7c3aed;
+$background-color: #f5f3ff;
+$text-color: #333;
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: $background-color;
+    color: $text-color;
+}
+
+.card {
+    max-width: 750px;
+    margin: 0 auto;
+    background: white;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+
+    h1 {
+        color: $primary-color;
+        margin-top: 0;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    .badge {
+        display: inline-block;
+        background: #ede9fe;
+        color: #5b21b6;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+}

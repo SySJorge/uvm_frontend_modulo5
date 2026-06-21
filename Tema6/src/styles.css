@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ecfdf5;
+    color: #064e3b;
+}
+
+.card {
+    max-width: 760px;
+    margin: 0 auto;
+    background: white;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    color: #047857;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #d1fae5;
+    color: #065f46;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 20px;
+}

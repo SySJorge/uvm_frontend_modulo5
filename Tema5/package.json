@@ -1,0 +1,24 @@
+{
+  "name": "tema5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "webpack --config webpack.config.js",
+  "start": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "sass": "^1.101.0",
+    "sass-loader": "^17.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.6.1",
+    "typescript": "^6.0.3",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
+  }
+}
